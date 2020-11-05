@@ -23,6 +23,8 @@
     "react-native-reanimated": "^1.13.1",
     "react-native-safe-area-context": "^3.1.8",
     "react-native-screens": "^2.11.0",
+    "react-native-stopwatch-timer": "0.0.21",
+    "react-native-zoom-us": "^5.1.0",
     "react-navigation": "^4.4.2",
     "react-navigation-stack": "^1.10.3"
   },
