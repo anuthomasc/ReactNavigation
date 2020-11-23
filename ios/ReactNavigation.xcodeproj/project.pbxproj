@@ -19,6 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* ReactNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNavigationTests.m */; };
 		DD298E71B3FE5283174FDD9F /* libPods-ReactNavigation-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB00EE62FC26AB8F03D4740 /* libPods-ReactNavigation-tvOSTests.a */; };
 		F15FCC8340A846C1704D9220 /* libPods-ReactNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF2BAFBE3A61B6E19FF0DAD /* libPods-ReactNavigation.a */; };
+		F18091B62562724A0046DAB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F18091B32562724A0046DAB4 /* GoogleService-Info.plist */; };
 		FD294E0E6229C9D13ECB921C /* libPods-ReactNavigation-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EF1A51C519B549CBD8F430 /* libPods-ReactNavigation-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		E6789A7F91EF227FEF533173 /* libPods-ReactNavigationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNavigationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F18091B32562724A0046DAB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F1B42BB12540240100E5324F /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
 		FB873EE7AE268576EE60FD65 /* Pods-ReactNavigation-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNavigation-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNavigation-tvOSTests/Pods-ReactNavigation-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				F18091B32562724A0046DAB4 /* GoogleService-Info.plist */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -392,6 +395,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				F18091B62562724A0046DAB4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
